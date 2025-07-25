@@ -2,6 +2,11 @@
 Scripts to keep locally stored AWS credentials encrypted.
 Credentials are **always encrypted** on disk.
 
+## Requirements
+ * openssl
+ * awscli
+ * jq
+
 ## Configuration
 Check `~/.aws/credentials` file format:
 ```sh
